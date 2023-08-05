@@ -1,0 +1,79 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: #333;
+    padding: 1rem;
+  }
+  
+  .nav-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-items {
+    display: flex;
+  }
+  
+  .nav-items a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .nav-items {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .nav-items a {
+      margin: 1rem;
+    }
+  
+    /* Show burger menu icon */
+    .nav-toggle {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .burger {
+      width: 25px;
+      height: 2px;
+      background-color: #333;
+      margin: 5px;
+      transition: 0.4s;
+    }
+  
+    /* Rotate the top and bottom lines when the menu is open */
+    .toggle .burger:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .toggle .burger:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .toggle .burger:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    /* Show the navigation items when the menu is open */
+    .nav-active {
+      display: flex;
+    }
+  
+  }
+  .logo {
+    max-width: 70px; /* Adjust the width as needed */
+    height: auto;
+  }

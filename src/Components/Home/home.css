@@ -1,0 +1,33 @@
+/* Home.css */
+
+.home-container {
+    background-image: url('../../Images/cubicbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Additional styling as needed */
+  }
+  
+  .hometag{
+    color: #FFFFFF;
+    position: relative;
+    align-items: center;
+    /* padding-top: 10em; */
+  }
+  .homeText{
+     padding-top: 10em;
+  }
+  .homeBtn{
+    color: #FFFF00 !important;
+    /* color: #0D267F; */
+
+  }
+  .card1{
+    width: 3em;
+  }
+  .css-46bh2p-MuiCardContent-root {
+    width: 80px !important;
+  }
+  .about-cards{
+    padding: 3em;
+  }
