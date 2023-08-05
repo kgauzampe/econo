@@ -29,5 +29,13 @@
     width: 80px !important;
   }
   .about-cards{
-    padding: 3em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); 
+    gap: 2rem;
+    position: relative;
+    align-items: center;
+  justify-content: center; /* Horizontally center items */
+  align-items: center; /* Vertically center items */
+ 
   }

@@ -87,13 +87,13 @@ return (
                         imageUrl="path_to_image.jpg" // Replace with the actual image path
                     />
                 </div>
-                <div className="card5">
+                {/* <div className="card5">
                     <Card5
                         title="Card Title"
                         // content="This is the content of the card. You can add more details here."
                         imageUrl="path_to_image.jpg" // Replace with the actual image path
                     />
-                </div>
+                </div> */}
             </div>
         </Container>
     </div>
