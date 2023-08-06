@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "./home.css";
 import back from "../../Images/cubicbackground.jpg"
 import Navbar from "../Navigation/Navigation/Nav";
+import Footer from "../Footer/footer";
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
@@ -27,12 +28,12 @@ const bull = (
     </Box>
   );
 const Home = () => {
-    const backgroundStyle = {
-        backgroundImage: 'url("../../Images/cubicbackground.jpg")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100vh', // Adjust the height as needed
-      };
+    // const backgroundStyle = {
+    //     backgroundImage: 'url("../../Images/cubicbackground.jpg")',
+    //     backgroundSize: 'cover',
+    //     backgroundPosition: 'center',
+    //     height: '100vh', // Adjust the height as needed
+    //   };
     
 
 return (
@@ -53,51 +54,46 @@ return (
         </Button>
         </Container>
     </div>
+    <div className="weUnder">
     <Typography variant="h5" component="h5" >
         We Understand Business Technology 
     </Typography>
+    </div>
     <div className="About-container">
         <Container>
             <div className="about-cards">
                 <div className="card1">
                     <Card1
-                        title="Card Title"
+                        title="Consulting service"
                         // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg" // Replace with the actual image path
+                        imageUrl="path_to_image.jpg"
                     />
                 </div>
                 <div className="card2">
                     <Card2
                         title="Card Title"
                         // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg" // Replace with the actual image path
+                        imageUrl="path_to_image.jpg"
                     />
                 </div>
                 <div className="card3">
                     <Card3
                         title="Card Title"
                         // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg" // Replace with the actual image path
+                        imageUrl="path_to_image.jpg"
                     />
                 </div>
                 <div className="card4">
                     <Card4
                         title="Card Title"
                         // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg" // Replace with the actual image path
+                        imageUrl="path_to_image.jpg" 
                     />
                 </div>
-                {/* <div className="card5">
-                    <Card5
-                        title="Card Title"
-                        // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg" // Replace with the actual image path
-                    />
-                </div> */}
             </div>
         </Container>
     </div>
-
+<Footer/>
 </div>
   );
 };
