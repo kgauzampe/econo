@@ -1,5 +1,3 @@
-// Navbar.js
-
 import React, { useState } from "react";
 import "./home.css";
 import back from "../../Images/cubicbackground.jpg"
@@ -28,13 +26,6 @@ const bull = (
     </Box>
   );
 const Home = () => {
-    // const backgroundStyle = {
-    //     backgroundImage: 'url("../../Images/cubicbackground.jpg")',
-    //     backgroundSize: 'cover',
-    //     backgroundPosition: 'center',
-    //     height: '100vh', // Adjust the height as needed
-    //   };
-    
 
 return (
 <div className="home">
@@ -44,10 +35,10 @@ return (
         <div className="homeText">
             <Typography variant="h3" component="h3" className="hometag">
                 YOUR IT CONSULTING AND TRAINING PARTNER
-            </Typography>;
+            </Typography>
             <Typography variant="h5" component="h5" className="hometag">
                 Providing Businesses Solutions to Optimise and Grow Their Technology
-            </Typography>;
+            </Typography>
         </div>
         <Button variant="contained" size="medium" className="homeBtn">
           Contact Us
