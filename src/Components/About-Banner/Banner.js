@@ -40,7 +40,7 @@ const Banner = () => {
             </Typography>
             <div className='bannerBtndiv'>
               <Button variant="contained" size="medium" className="bannerBtn">
-                Contact Us
+                schedule a consultation
               </Button>
             </div>
 
