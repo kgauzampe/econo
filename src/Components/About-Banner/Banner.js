@@ -38,11 +38,15 @@ const Banner = () => {
             <Typography>
               Come join us, and together, let's unleash the full potential of IT in your business.
             </Typography>
-            <Button variant="contained" size="medium" className="bannerBtn">
-              Contact Us
-            </Button>
+            <div className='bannerBtndiv'>
+              <Button variant="contained" size="medium" className="bannerBtn">
+                Contact Us
+              </Button>
+            </div>
+
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
+
             <img src={AboutImg} alt="Card" className="aboutimg" />
           </Grid>
         </Grid>

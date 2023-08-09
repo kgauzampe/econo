@@ -20,9 +20,9 @@
     border-radius: 50%;
     width: 500px;
   }
-  .bannerBtn{
-    padding-top: 1em !important;
-  }
+.bannerBtndiv{
+  padding-top: 2em;
+}
   @media (max-width: 768px) {
     .banner {
       padding: 10px;
