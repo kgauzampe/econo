@@ -16,8 +16,9 @@ import Card2 from "../Card2/card2";
 import Card3 from "../Card3/card3";
 import Card4 from "../Card4/card4";
 import BannerImg from '../../Images/1.png'
-import BannerImg2 from '../../Images/Banner 2.png'
+import BannerImg2 from '../../Images/Get.png'
 import Banner from "../About-Banner/Banner";
+import Service1 from "../Service1/Service1";
 
 const bull = (
     <Box
@@ -93,6 +94,7 @@ return (
     <img src={BannerImg2} alt="Card" className="banner-image2" />
     </Typography>
     </div>
+    <Service1/>
     </div>
 <Footer/>
 </div>

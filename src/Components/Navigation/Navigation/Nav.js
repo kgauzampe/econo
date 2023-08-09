@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="nav-items">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/services">Services</Link>
+        <Link to="/Service1">Services</Link>
         <Link to="/contact">Contact</Link>
       </div>
       <div className="nav-toggle" onClick={toggleNav}>
