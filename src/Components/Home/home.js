@@ -26,74 +26,74 @@ import Serv4Card from "../Serv4Card/Serv4Card";
 
 const bull = (
     <Box
-      component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+        component="span"
+        sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
     >
-      •
+        •
     </Box>
-  );
+);
 const Home = () => {
 
-return (
-<div className="home">
-    <Navbar/>
-    <div className="home-container">
-    <Container>
-        <div className="homeText">
-            <Typography variant="h3" component="h3" className="hometag">
-                YOUR IT CONSULTING AND TRAINING PARTNER
-            </Typography>
-            <Typography variant="h5" component="h5" className="hometag">
-                Providing Businesses Solutions to Optimise and Grow Their Technology
-            </Typography>
-        </div>
-        <Button variant="contained" size="medium" className="homeBtn">
-          Contact Us
-        </Button>
-        </Container>
-    </div>
-    <div className="weUnder">
-    <Typography variant="h5" component="h5" >
-    <img src={BannerImg} alt="Card" className="banner-image" />
-    </Typography>
-    </div>
-    <div className="About-container">
-        <Container>
-            <div className="about-cards">
-                <div className="card1">
-                    <Serv1Card/>
+    return (
+        <div className="home">
+            <Navbar />
+            <div className="home-container">
+                <Container>
+                    <div className="homeText">
+                        <Typography variant="h3" component="h3" className="hometag">
+                            YOUR IT CONSULTING AND TRAINING PARTNER
+                        </Typography>
+                        <Typography variant="h5" component="h5" className="hometag">
+                            Providing Businesses Solutions to Optimise and Grow Their Technology
+                        </Typography>
+                    </div>
+                    <Button variant="contained" size="medium" className="homeBtn">
+                        Contact Us
+                    </Button>
+                </Container>
+            </div>
+            <div className="weUnder">
+                <Typography variant="h5" component="h5" >
+                    <img src={BannerImg} alt="Card" className="banner-image" />
+                </Typography>
+            </div>
+            <div className="About-container">
+                <Container>
+                    <div className="about-cards">
+                        <div className="card1">
+                            <Serv1Card />
+                        </div>
+                        <div className="card2">
+                            <Serv2Card />
+                        </div>
+                        <div className="card3">
+                            <Card3
+                                title="IT Consulting"
+                                // content="This is the content of the card. You can add more details here."
+                                imageUrl="path_to_image.jpg"
+                            />
+                        </div>
+                        <div className="card4">
+                            <Card4
+                                title="Software QA Consultancy"
+                                // content="This is the content of the card. You can add more details here."
+                                imageUrl="path_to_image.jpg"
+                            />
+                        </div>
+                    </div>
+                </Container>
+                <div className="abtBanner">
+                    <Banner />
                 </div>
-                <div className="card2">
-                    <Serv2Card/>
-                </div>
-                <div className="card3">
-                    <Card3
-                        title="IT Consulting"
-                        // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg"
-                    />
-                </div>
-                <div className="card4">
-                    <Card4
-                        title="Software QA Consultancy"
-                        // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg" 
-                    />
+                <div className="getB">
+                    <Typography variant="h5" component="h5" >
+                        <img src={BannerImg2} alt="Card" className="banner-image2" />
+                    </Typography>
                 </div>
             </div>
-        </Container>
-        <div className="abtBanner">
-            <Banner/>
+            <Footer />
         </div>
-        <div className="getB">
-    <Typography variant="h5" component="h5" >
-    <img src={BannerImg2} alt="Card" className="banner-image2" />
-    </Typography>
-    </div>
-    </div>
-<Footer/>
-</div>
-  );
+    );
 };
 
 export default Home;
