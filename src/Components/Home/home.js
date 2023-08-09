@@ -16,6 +16,7 @@ import Card2 from "../Card2/card2";
 import Card3 from "../Card3/card3";
 import Card4 from "../Card4/card4";
 import BannerImg from '../../Images/1.png'
+import BannerImg2 from '../../Images/Banner 2.png'
 import Banner from "../About-Banner/Banner";
 
 const bull = (
@@ -56,28 +57,28 @@ return (
             <div className="about-cards">
                 <div className="card1">
                     <Card1
-                        title="Consulting service"
+                        title="Software QA Training"
                         // content="This is the content of the card. You can add more details here."
                         imageUrl="path_to_image.jpg"
                     />
                 </div>
                 <div className="card2">
                     <Card2
-                        title="Card Title"
+                        title="IT Training"
                         // content="This is the content of the card. You can add more details here."
                         imageUrl="path_to_image.jpg"
                     />
                 </div>
                 <div className="card3">
                     <Card3
-                        title="Card Title"
+                        title="IT Consulting"
                         // content="This is the content of the card. You can add more details here."
                         imageUrl="path_to_image.jpg"
                     />
                 </div>
                 <div className="card4">
                     <Card4
-                        title="Card Title"
+                        title="Software QA Consultancy"
                         // content="This is the content of the card. You can add more details here."
                         imageUrl="path_to_image.jpg" 
                     />
@@ -87,6 +88,11 @@ return (
         <div className="abtBanner">
             <Banner/>
         </div>
+        <div className="getB">
+    <Typography variant="h5" component="h5" >
+    <img src={BannerImg2} alt="Card" className="banner-image2" />
+    </Typography>
+    </div>
     </div>
 <Footer/>
 </div>
