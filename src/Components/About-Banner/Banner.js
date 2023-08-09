@@ -3,6 +3,7 @@ import { Typography } from "@mui/material";
 import AboutImg from '../../Images/Dr Overton.png'
 import { Grid } from '@mui/material';
 import Button from '@mui/material/Button';
+import Carousel from '../Card-Carousel/Carousel';
 import './Banner.css';
 
 const Banner = () => {
@@ -32,8 +33,6 @@ const Banner = () => {
             <img src={AboutImg} alt="Card" className="aboutimg" />
           </Grid>
         </Grid>
-
-
       </div>
     </div>
   );

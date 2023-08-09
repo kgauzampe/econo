@@ -23,6 +23,7 @@ import Serv1Card from "../Serv1Card/Serv1Card";
 import Serv2Card from "../Serv2Card/Serv2Card";
 import Serv3Card from "../Serv3Card/Serv3Card";
 import Serv4Card from "../Serv4Card/Serv4Card";
+import Carousel1 from "../Card-Carousel/Carousel";
 
 const bull = (
     <Box
@@ -84,6 +85,9 @@ const Home = () => {
                 </Container>
                 <div className="abtBanner">
                     <Banner />
+                </div>
+                <div className="Carousel-div">
+                <Carousel1/>
                 </div>
                 <div className="getB">
                     <Typography variant="h5" component="h5" >

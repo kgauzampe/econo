@@ -1,8 +1,13 @@
 /* CardCarousel.css */
 
-.carousel-container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
+.App-Carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* transform: skewY(-2deg); */
+}
+.carousel-root {
+  max-width: 300px; /* Adjust as needed */
+  width: 100%;
+}

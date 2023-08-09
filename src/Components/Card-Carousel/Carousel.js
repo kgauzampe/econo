@@ -1,39 +1,32 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import './Carousel.css'; // You can create this CSS file for carousel styles
-import CardCar from './Card1'; // Import your card component
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import './Carousel.css';
 
-const CardCarousel = () => {
-  const cardData = [
-    {
-      title: 'Card 1',
-      content: 'This is the content of Card 1',
-      imageUrl: '...',
-    },
-    // Add more card data here
-  ];
+import image1 from '../../Images/Carousel1.png';
+import image2 from '../../Images/Carousel2.png';
+import image3 from '../../Images/Carousel3.png';
+import image4 from '../../Images/Carousel4.png';
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
+function Carousel1() {
   return (
-    <div className="carousel-container">
-      <Slider {...settings}>
-        {cardData.map((card, index) => (
-          <div key={index}>
-            <Card1 title={card.title} content={card.content} imageUrl={card.imageUrl} />
-          </div>
-        ))}
-      </Slider>
+    <div className="App-Carousel">
+      <Carousel>
+        <div>
+          <img src={image1} alt="Image 1" />
+        </div>
+        <div>
+          <img src={image2} alt="Image 2" />
+        </div>
+        <div>
+          <img src={image3} alt="Image 3" />
+        </div>
+        <div>
+          <img src={image4} alt="Image 3" />
+        </div>
+      </Carousel>
     </div>
   );
-};
+}
 
-export default CardCarousel;
+export default Carousel1;
