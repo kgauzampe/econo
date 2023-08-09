@@ -88,6 +88,9 @@ const Home = () => {
                     <Banner />
                 </div>
                 <div className="Carousel-div">
+                <Typography variant="h3" component="h3" >
+                        Testimonials
+                    </Typography>
                     <Carousel1 />
                 </div>
                 <div className="getB">
