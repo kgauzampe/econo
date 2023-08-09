@@ -15,7 +15,8 @@ import Card1 from "../Card1/card1";
 import Card2 from "../Card2/card2";
 import Card3 from "../Card3/card3";
 import Card4 from "../Card4/card4";
-import Card5 from "../Card5/card5";
+import BannerImg from '../../Images/1.png'
+import Banner from "../About-Banner/Banner";
 
 const bull = (
     <Box
@@ -47,7 +48,7 @@ return (
     </div>
     <div className="weUnder">
     <Typography variant="h5" component="h5" >
-        We Understand Business Technology 
+    <img src={BannerImg} alt="Card" className="banner-image" />
     </Typography>
     </div>
     <div className="About-container">
@@ -83,6 +84,9 @@ return (
                 </div>
             </div>
         </Container>
+        <div className="abtBanner">
+            <Banner/>
+        </div>
     </div>
 <Footer/>
 </div>
