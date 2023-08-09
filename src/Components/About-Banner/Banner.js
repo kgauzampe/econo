@@ -20,7 +20,7 @@ const Banner = () => {
               Our training courses cover programming, cloud computing, data analytics, and more. Partner with us for exceptional
               results and personalized support. Contact us today to harness the power of technology for your success.
             </Typography>
-              <br/>
+            <br />
             <Typography>
               Welcome to our IT consulting and training company! We empower businesses with comprehensive solutions and training
               programs to thrive in the digital age.

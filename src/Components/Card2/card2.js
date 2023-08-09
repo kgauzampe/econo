@@ -1,6 +1,6 @@
 import React from 'react';
 import card1Img from '../../Images/card2.png';
-import './card2.css'; // Import the external CSS file
+import './card2.css';
 
 const Card2 = ({ title, content, imageUrl }) => {
   return (

@@ -70,14 +70,12 @@ const Home = () => {
                         <div className="card3">
                             <Card3
                                 title="IT Consulting"
-                                // content="This is the content of the card. You can add more details here."
                                 imageUrl="path_to_image.jpg"
                             />
                         </div>
                         <div className="card4">
                             <Card4
                                 title="Software QA Consultancy"
-                                // content="This is the content of the card. You can add more details here."
                                 imageUrl="path_to_image.jpg"
                             />
                         </div>
@@ -87,7 +85,7 @@ const Home = () => {
                     <Banner />
                 </div>
                 <div className="Carousel-div">
-                <Carousel1/>
+                    <Carousel1 />
                 </div>
                 <div className="getB">
                     <Typography variant="h5" component="h5" >

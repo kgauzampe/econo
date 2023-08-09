@@ -17,17 +17,13 @@
     color: #FFFFFF;
     position: relative;
     align-items: center;
-    /* padding-top: 10em; */
   }
   .homeText{
      padding-top: 10em;
      padding-bottom: 1em;
   }
   .homeBtn{
-    /* color: #FFFF00 ; */
     background-color: #FFFF00;
-    /* color: #0D267F; */
-
   }
   .css-sghohy-MuiButtonBase-root-MuiButton-root {
     background-color: #FFFF00 !important;
@@ -46,8 +42,8 @@
     gap: 2rem;
     position: relative;
     align-items: center;
-  justify-content: center; 
-  padding-bottom: 2em;
+    justify-content: center; 
+    padding-bottom: 2em;
  
   }
   .banner-image2{
