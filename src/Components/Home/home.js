@@ -60,6 +60,9 @@ const Home = () => {
             </div>
             <div className="About-container">
                 <Container>
+                    <Typography variant="h3" component="h3" >
+                        Our Services
+                    </Typography>
                     <div className="about-cards">
                         <div className="card1">
                             <Serv1Card />

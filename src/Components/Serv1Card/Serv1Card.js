@@ -4,7 +4,7 @@ import Card1 from '../Card1/card1'; // Assuming you have your Card1 component
 
 const Serv1Card = () => {
   return (
-    <Link to="/Service1" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <Link className='Serv1' to="/Service1" style={{ textDecoration: 'none', color: 'inherit' }}>
       <Card1
         title="Software QA Training"
         // content="This is the content of the card. You can add more details here."
