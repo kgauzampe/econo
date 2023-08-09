@@ -14,13 +14,14 @@
     margin: 0 auto;
     padding: 1em;
     transform: skewY(-2deg);
+   
   }
   .aboutimg{
     border-radius: 50%;
-    width: 300px;
+    width: 500px;
   }
   .bannerBtn{
-    padding-top: 1em;
+    padding-top: 1em !important;
   }
   @media (max-width: 768px) {
     .banner {
