@@ -6,12 +6,12 @@ import './Carousel.css';
 import image1 from '../../Images/Carousel1.png';
 import image2 from '../../Images/Carousel2.png';
 import image3 from '../../Images/Carousel3.png';
-import image4 from '../../Images/Carousel4.png';
+import image4 from '../../Images/Carousel4.png'; 
 
 function Carousel1() {
   return (
     <div className="App-Carousel">
-      <Carousel interval={3000}>
+      <Carousel interval={3000} autoPlay={true} infiniteLoop={true}>
         <div>
           <img src={image1} alt="Image 1" />
         </div>
