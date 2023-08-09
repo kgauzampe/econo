@@ -19,6 +19,10 @@ import BannerImg from '../../Images/1.png'
 import BannerImg2 from '../../Images/Get.png'
 import Banner from "../About-Banner/Banner";
 import Service1 from "../Service1/Service1";
+import Serv1Card from "../Serv1Card/Serv1Card";
+import Serv2Card from "../Serv2Card/Serv2Card";
+import Serv3Card from "../Serv3Card/Serv3Card";
+import Serv4Card from "../Serv4Card/Serv4Card";
 
 const bull = (
     <Box
@@ -57,18 +61,10 @@ return (
         <Container>
             <div className="about-cards">
                 <div className="card1">
-                    <Card1
-                        title="Software QA Training"
-                        // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg"
-                    />
+                    <Serv1Card/>
                 </div>
                 <div className="card2">
-                    <Card2
-                        title="IT Training"
-                        // content="This is the content of the card. You can add more details here."
-                        imageUrl="path_to_image.jpg"
-                    />
+                    <Serv2Card/>
                 </div>
                 <div className="card3">
                     <Card3
@@ -94,7 +90,6 @@ return (
     <img src={BannerImg2} alt="Card" className="banner-image2" />
     </Typography>
     </div>
-    <Service1/>
     </div>
 <Footer/>
 </div>
