@@ -7,6 +7,7 @@ import Service2 from './Components/Service2/Service2';
 import Service4 from './Components/Service4/Service4';
 import './App.css';
 import Service3 from './Components/Service3/Service3';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Service2" element={<Service2/>} />
         <Route path="/Service3" element={<Service3/>} />
         <Route path="/Service4" element={<Service4/>} />
+        <Route path="/Contact" element={<Contact/>} />
         </Routes>
       </div>
     </Router>

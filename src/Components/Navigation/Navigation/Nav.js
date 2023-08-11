@@ -21,7 +21,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/Service1">Services</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/Contact">Contact</Link>
       </div>
       <div className="nav-toggle" onClick={toggleNav}>
         <div className={`burger ${isNavOpen ? "toggle" : ""}`} />
