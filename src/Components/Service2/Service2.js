@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Service1.css";
+import "./Service2.css";
 import Navbar from "../Navigation/Navigation/Nav";
 import Footer from "../Footer/footer";
 import Button from '@mui/material/Button';
@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import Serv1 from '../../Images/card1.png'
 
 
-const Service1 = () => {
+const Service2 = () => {
 
     return (
         <div className="Service1">
@@ -73,4 +73,4 @@ const Service1 = () => {
     )
 }
 
-export default Service1;
+export default Service2;

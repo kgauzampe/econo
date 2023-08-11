@@ -4,7 +4,7 @@ import Card4 from '../Card4/card4';
 
 const Serv4Card = () => {
   return (
-    <Link to="/Service1" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <Link to="/Service4" style={{ textDecoration: 'none', color: 'inherit' }}>
       <Card4
         title="Software QA Training"
         imageUrl="path_to_image.jpg"

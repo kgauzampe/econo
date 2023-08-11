@@ -71,16 +71,10 @@ const Home = () => {
                             <Serv2Card />
                         </div>
                         <div className="card3">
-                            <Card3
-                                title="IT Consulting"
-                                imageUrl="path_to_image.jpg"
-                            />
+                        <Serv3Card />
                         </div>
                         <div className="card4">
-                            <Card4
-                                title="Software QA Consultancy"
-                                imageUrl="path_to_image.jpg"
-                            />
+                        <Serv4Card/>
                         </div>
                     </div>
                 </Container>

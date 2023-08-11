@@ -23,7 +23,7 @@ const Service1 = () => {
                         Unlock the potential of your software quality assurance with EconoTeque's comprehensive Software QA Training program.
                         Designed to equip businesses with top-tier QA skills, our training options cater to diverse needs, including both onsite
                         and online formats.
-
+                            <br/>
                         By investing in Software QA training, you empower your technical workforce to ensure impeccable software quality
                         , setting the stage for enhanced operational excellence, innovative product development, heightened competitiveness,
                         and a robust foundation for sustained growth.
