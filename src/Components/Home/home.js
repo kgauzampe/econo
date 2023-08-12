@@ -85,7 +85,9 @@ const Home = () => {
                 <Typography variant="h3" component="h3" >
                         Testimonials
                     </Typography>
+                    <div className="cara">
                     <Carousel1 />
+                    </div>
                 </div>
                 <div className="getB">
                     <Typography variant="h5" component="h5" >

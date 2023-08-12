@@ -11,7 +11,7 @@ import image4 from '../../Images/Carousel4.png';
 function Carousel1() {
   return (
     <div className="App-Carousel">
-      <Carousel interval={3000} autoPlay={true} infiniteLoop={true}>
+      <Carousel interval={3000} autoPlay={true} infiniteLoop={true}  showThumbs={false}>
         <div>
           <img src={image1} alt="Image 1" />
         </div>
