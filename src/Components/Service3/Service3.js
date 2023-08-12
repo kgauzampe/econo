@@ -109,6 +109,11 @@ const Service3 = () => {
                                 sustainable growth and success.
                             </Typography>
                         </div>
+                        <div className=" servBtn">
+                            <Button variant="contained" size="medium" className="serv1Btn">
+                                schedule a consultation
+                            </Button>
+                        </div>
                     </div>
                 </div>
             </Container>

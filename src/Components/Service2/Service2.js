@@ -71,6 +71,11 @@ const Service2 = () => {
                                 turning potential challenges into opportunities for skill enhancement and success.
                             </Typography>
                         </div>
+                        <div className=" servBtn">
+                            <Button variant="contained" size="medium" className="serv1Btn">
+                                schedule a consultation
+                            </Button>
+                        </div>
                     </div>
 
                 </div>
