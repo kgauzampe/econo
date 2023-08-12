@@ -19,8 +19,8 @@ const Navbar = () => {
       </div>
       <div className="nav-items">
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/Service1">Services</Link>
+        <Link to="#about">About</Link>
+        <Link to="#Services">Services</Link>
         <Link to="/Contact">Contact</Link>
       </div>
       <div className="nav-toggle" onClick={toggleNav}>
