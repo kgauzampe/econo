@@ -1,6 +1,8 @@
-.serv-image2{
-    width: 300px;
-    height: 300px;
+.serv-image1{
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin: 0 auto; 
 }
 .Serv1-t{
     padding-top: 1em;
@@ -12,4 +14,7 @@
 .body1{
     padding-top: 1em;
     padding-bottom: 1em;   
+}
+.Service1{
+    text-align: start;
 }

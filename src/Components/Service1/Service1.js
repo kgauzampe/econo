@@ -18,7 +18,12 @@ const Service1 = () => {
                     <Typography variant="h3" component="h3" className="Serv1">
                         Help Your TeamMaster Software Quality through Expert-Led QA Training
                     </Typography>
-                    <img src={Serv1} alt="Card" className="serv-image2" />
+                    <br/>
+                    <br/>
+                    <img src={Serv1} alt="Card" className="serv-image1" />
+                    <br/>
+                    <br/>
+                    <br/>
                     <Typography>
                         Unlock the potential of your software quality assurance with EconoTeque's comprehensive Software QA Training program.
                         Designed to equip businesses with top-tier QA skills, our training options cater to diverse needs, including both onsite

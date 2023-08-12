@@ -5,7 +5,7 @@ import Footer from "../Footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
-import Serv1 from '../../Images/card1.png'
+import Serv3 from '../../Images/card3.png'
 
 
 const Service3 = () => {
@@ -18,7 +18,13 @@ const Service3 = () => {
                     <Typography variant="h3" component="h3" className="Serv1">
                         Get Expert Guidance with IT Consultancy Services
                     </Typography>
-                    <img src={Serv1} alt="Card" className="serv-image2" />
+                    <br />
+                    <br />
+                    <img src={Serv3} alt="Card" className="serv-image3" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <Typography>
                         In the business world, IT consultancy serves as a valuable guide. The experts
                         at Econoteque assist decision-makers in navigating technology choices, from
@@ -69,7 +75,7 @@ const Service3 = () => {
                         you do best.
                     </Typography>
                     <Typography variant="body1" className="body1">
-                        <span style={{ fontWeight: 'bold' }}>3. Strategic Roadmap for Growth:</span> 
+                        <span style={{ fontWeight: 'bold' }}>3. Strategic Roadmap for Growth:</span>
                         Chart a clear path to sustainable growth with our IT Consultancy expertise. Our
                         consultants meticulously analyse your business landscape, identifying growth
                         opportunities that are driven by technology. Whether it's market expansion,
@@ -77,13 +83,13 @@ const Service3 = () => {
                         to navigate these transitions confidently.
                     </Typography>
                     <Typography variant="body1" className="body1">
-                        <span style={{ fontWeight: 'bold' }}>4. Empowered Workforce and Training:</span>  
+                        <span style={{ fontWeight: 'bold' }}>4. Empowered Workforce and Training:</span>
                         Empower your team with the skills and knowledge they need to thrive in a
                         technology-driven world. Our IT Consultancy services encompass comprehensive
                         training and ongoing support, ensuring your workforce can leverage advanced tools
                         and systems proficiently. Increase productivity, boost employee morale, and foster
                         a tech-savvy culture within your organisation.
-                            <br/>
+                        <br />
                         In summary, our IT Consultancy services empower businesses with tailored solutions,
                         enabling them to harness technology strategically, protect their assets, and drive
                         sustained growth—partner with us to gain a competitive advantage in today's digital
@@ -93,13 +99,13 @@ const Service3 = () => {
                         Why Choose EconoTeque's IT Consultancy Service?
                     </Typography>
                     <Typography variant="body1" className="body1">
-                    EconoTeque is privileged to have Dr James Overton as our esteemed lead consultant and
-                    CEO, with a remarkable blend of hands-on expertise and instructional prowess. Among
-                    his many accomplishments, Dr Overton notably served as a Lead Application Systems
-                    Engineer and Lead Integration Engineer for the US Air Force, contributing to substantial
-                    cost savings exceeding $6.2 million. His invaluable insights and proficiency ensure your
-                    business receives genuine expert guidance, promising a transformative journey towards
-                    sustainable growth and success.
+                        EconoTeque is privileged to have Dr James Overton as our esteemed lead consultant and
+                        CEO, with a remarkable blend of hands-on expertise and instructional prowess. Among
+                        his many accomplishments, Dr Overton notably served as a Lead Application Systems
+                        Engineer and Lead Integration Engineer for the US Air Force, contributing to substantial
+                        cost savings exceeding $6.2 million. His invaluable insights and proficiency ensure your
+                        business receives genuine expert guidance, promising a transformative journey towards
+                        sustainable growth and success.
                     </Typography>
 
 

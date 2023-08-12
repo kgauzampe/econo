@@ -5,7 +5,7 @@ import Footer from "../Footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
-import Serv1 from '../../Images/card1.png'
+import Serv4 from '../../Images/card4.png'
 
 
 const Service4 = () => {
@@ -18,7 +18,13 @@ const Service4 = () => {
                     <Typography variant="h3" component="h3" className="Serv1">
                         Gain Expert Insights with Software QA Consultancy Services
                     </Typography>
-                    <img src={Serv1} alt="Card" className="serv-image2" />
+                    <br />
+                    <br />
+                    <img src={Serv4} alt="Card" className="serv-image4" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <Typography>
                         In the realm of software quality assurance (QA), consultancy services act as a guiding
                         beacon. At Econoteque, our team of experts assists decision-makers in navigating the
