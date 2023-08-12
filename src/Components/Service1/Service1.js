@@ -6,10 +6,20 @@ import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
 import Serv1 from '../../Images/card1.png'
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
 
-const customBulletStyle = {
-    listStyleType: 'disc',
-  };
+const listItemStyle = {
+    paddingLeft: '20px', // Adjust the value as needed
+    position: 'relative',
+};
+
+const bulletStyle = {
+    content: '"\\2022"', // Unicode bullet point character
+    position: 'absolute',
+    left: '0',
+};
 
 const Service1 = () => {
 
@@ -79,24 +89,24 @@ const Service1 = () => {
                             <Typography variant="h5" component="h5" className="Serv1-t">
                                 Why Choose EconoTeque's Software QA Training?
                             </Typography>
-                            <Typography component="div" style={customBulletStyle}>
+                            <Typography component="div" >
                                 EconoTeque stands as a beacon of expert-led Software QA training. Our CEO and lead consultant, Dr Overton, personally guides training initiatives, ensuring your teams learn from a true industry expert.
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 Dr Overton's credentials include:
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 <div>Holding a PhD in Computer Science</div>
-                                <br/>
+                                <br />
                                 Serving as the Lead Integration Engineer – Deputy Chief Engineer at the US Airforce, achieving savings of $6.2 million
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 Chairing the Computer Information Systems Bachelors Program @ the Remington College (Memphis, Tennessee, USA)
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 Authoring over 3 distinguished computer science textbooks
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 Empower your team with EconoTeque's Software QA Training – your gateway to mastering the art of software quality assurance and propelling your business to new heights of excellence.
                             </Typography>
                         </div>
