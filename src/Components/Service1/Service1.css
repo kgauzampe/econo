@@ -18,3 +18,11 @@
 .Service1{
     text-align: start;
 }
+.serv1-article{
+    width: 45em;
+    display: block;
+    margin: 0 auto; 
+  }
+  .custom-bullet {
+    list-style-type: disc; 
+  }
