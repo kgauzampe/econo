@@ -24,6 +24,7 @@ import Serv2Card from "../Serv2Card/Serv2Card";
 import Serv3Card from "../Serv3Card/Serv3Card";
 import Serv4Card from "../Serv4Card/Serv4Card";
 import Carousel1 from "../Card-Carousel/Carousel";
+import { Link } from 'react-router-dom';
 
 const bull = (
     <Box
@@ -48,9 +49,11 @@ const Home = () => {
                             Providing Businesses Solutions to Optimise and Grow Their Technology
                         </Typography>
                     </div>
-                    <Button variant="contained" size="medium" className="homeBtn">
-                        Contact Us
-                    </Button>
+                    <Link to="/Contact" style={{ textDecoration: 'none' }}>
+                        <Button variant="contained" size="medium" className="homeBtn">
+                            Contact Us
+                        </Button>
+                    </Link>
                 </Container>
             </div>
             <div className="weUnder">
@@ -71,10 +74,10 @@ const Home = () => {
                             <Serv2Card />
                         </div>
                         <div className="card3">
-                        <Serv3Card />
+                            <Serv3Card />
                         </div>
                         <div className="card4">
-                        <Serv4Card/>
+                            <Serv4Card />
                         </div>
                     </div>
                 </Container>
@@ -82,11 +85,11 @@ const Home = () => {
                     <Banner />
                 </div>
                 <div className="Carousel-div">
-                <Typography variant="h3" component="h3" >
+                    <Typography variant="h3" component="h3" >
                         Testimonials
                     </Typography>
                     <div className="cara">
-                    <Carousel1 />
+                        <Carousel1 />
                     </div>
                 </div>
                 <div className="getB">
