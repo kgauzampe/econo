@@ -11,7 +11,7 @@ const Banner = () => {
     <div className="banner">
       <div className="banner-content">
         <h2>About Us</h2>
-        <Grid container spacing={6}>
+        <Grid container spacing={20}>
           <Grid item xs={12} sm={12} md={6}>
             <Typography>
               EconoTeque specialises in delivering rare Information Technology expertise and training
