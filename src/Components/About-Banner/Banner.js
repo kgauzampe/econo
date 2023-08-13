@@ -48,6 +48,9 @@ const Banner = () => {
           <Grid item xs={12} sm={12} md={6}>
 
             <img src={AboutImg} alt="Card" className="aboutimg" />
+            <Typography className='image-text'>
+              EconoTeque President and Head Advisor
+            </Typography>
           </Grid>
         </Grid>
       </div>
