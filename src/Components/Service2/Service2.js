@@ -11,10 +11,10 @@ import Serv2 from '../../Images/card2.png'
 const Service2 = () => {
 
     return (
-        <div className="Service1">
+        <div className="Service2">
             <Navbar />
             <Container>
-                <div className="Service1-content">
+                <div className="Service2-content">
                     <Typography variant="h3" component="h3" className="Serv1">
                         IT Training From Work-Class Experts
                     </Typography>

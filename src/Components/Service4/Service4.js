@@ -11,10 +11,10 @@ import Serv4 from '../../Images/card4.png'
 const Service4 = () => {
 
     return (
-        <div className="Service1">
+        <div className="Service4">
             <Navbar />
             <Container>
-                <div className="Service1-content">
+                <div className="Service4-content">
                     <Typography variant="h3" component="h3" className="Serv1">
                         Gain Expert Insights with Software QA Consultancy Services
                     </Typography>

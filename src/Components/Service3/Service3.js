@@ -11,7 +11,7 @@ import Serv3 from '../../Images/card3.png'
 const Service3 = () => {
 
     return (
-        <div className="Service1">
+        <div className="Service3">
             <Navbar />
             <Container>
                 <div className="Service3-content">

@@ -57,15 +57,19 @@ const Home = () => {
                 </Container>
             </div>
             <div className="weUnder">
-                <Typography variant="h5" component="h5" >
-                    <img src={BannerImg} alt="Card" className="banner-image" />
-                </Typography>
+                <img src={BannerImg} alt="Card" className="banner-image" />
+
             </div>
             <div className="About-container">
                 <Container>
                     <Typography variant="h3" component="h3" >
                         Our Services
                     </Typography>
+                    <br/>
+                    <Typography variant="h5" component="h5">
+                        Tailor-made Services Built for Your Busienss Success
+                    </Typography>
+                    <br/>
                     <div className="about-cards">
                         <div className="card1">
                             <Serv1Card />

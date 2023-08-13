@@ -7,7 +7,7 @@ const Card1 = ({ title, content, imageUrl }) => {
     <div className="card">
       <div className="card-image-container">
         {imageUrl && <img src={card1Img} alt="Card" className="card-image" />}
-        <h3 className="card-title">{title}</h3>
+        <h3 className="card-title1">{title}</h3>
       </div>
       <p className="card-content">{content}</p>
     </div>

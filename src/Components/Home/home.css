@@ -12,7 +12,7 @@
   }
   .weUnder{
     position: relative;
-    padding-top: 1em;
+    /* padding-top: 1em; */
   }
   .hometag{
     color: #FFFFFF;
@@ -48,6 +48,7 @@
     padding-bottom: 2em;
  
   }
+
   .banner-image2{
     padding-top: 2em;
     padding-bottom: 2em;
@@ -57,7 +58,7 @@
   .banner-image2{
     width: 63em;
   }
-  .Carousel-div{
+  .Carousel-div{ 
     padding-top: 2em;
   }
   .cara{

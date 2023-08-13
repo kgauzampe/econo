@@ -18,10 +18,11 @@
   height: auto;
 }
 
-.card-title {
+.card-title3 {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 50%; /* Position it 50% down from the top */
+  left: 50%; /* Position it 50% from the left */
+  transform: translate(-50%, -50%); /* Move it back by 50% of its own width and height */
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 5px 10px;
