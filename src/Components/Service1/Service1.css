@@ -31,3 +31,9 @@
     display: block;
     margin: 0 auto; 
   }
+  .Serv1-typo{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+  }

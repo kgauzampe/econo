@@ -28,7 +28,7 @@ const Service1 = () => {
             <Navbar />
             <Container>
                 <div className="Service1-content">
-                    <Typography variant="h3" component="h3" className="Serv1">
+                    <Typography variant="h3" component="h3" className="Serv1-typo">
                         Help Your TeamMaster Software Quality through Expert-Led QA Training
                     </Typography>
                     <br />
