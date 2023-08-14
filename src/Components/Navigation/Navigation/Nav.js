@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
-  };
+  }; 
 
   return (
     <nav className="navbar">
@@ -18,10 +18,12 @@ const Navbar = () => {
       <img src={logo} alt="Logo" className="logo" />
       </div>
       <div className="nav-items">
+        <div className="links">
         <Link to="/">Home</Link>
         <Link to="#about">About</Link>
         <Link to="#Services">Services</Link>
         <Link to="/Contact">Contact</Link>
+        </div>
       </div>
       <div className="nav-toggle" onClick={toggleNav}>
         <div className={`burger ${isNavOpen ? "toggle" : ""}`} />

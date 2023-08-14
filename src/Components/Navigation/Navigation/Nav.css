@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  color: #333;
+  color: #333; 
   padding: 0.5rem;
 }
 
@@ -12,29 +12,16 @@
   font-size: 1.5rem;
 }
 
-.nav-items {
-  display: flex;
-  align-items: flex-end; 
-  justify-content: flex-end;
-}
-
-.nav-links {
-  display: flex;
+.nav-items{
+  display: flex; /* Use flex display to align items horizontally */
+  justify-content: flex-start; /* Align items to the left */
   align-items: center;
+  width: 100%;
 }
-
-.nav-link {
-  margin: 0 0.5rem; 
-  text-decoration: none;
-  color: #333;
-}
-
-
-.nav-links {
+.nav-items .links{
   margin-left: auto;
-  display: flex;
-  align-items: flex-end;
 }
+
 
   .nav-items a {
     color: #333;
