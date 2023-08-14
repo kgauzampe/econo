@@ -12,9 +12,14 @@
   }
   .weUnder{
     position: relative;
-    /* padding-top: 1em; */
+
   }
   .hometag{
+    color: #FFFFFF;
+    position: relative;
+    align-items: center;
+  }
+  .hometag2{
     color: #FFFFFF;
     position: relative;
     align-items: center;
@@ -65,3 +70,48 @@
     position: relative;
     padding-top: 2em;
   }
+
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    background-image: url('../../Images/cubicbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: skewY(1deg);
+    z-index: 2;
+    height: 35em;
+    opacity: 95%;
+
+  }
+  .hometag{
+
+  }
+.banner-image{
+  display: none;
+}
+.banner-image2{
+  display: none;
+}
+
+.about-cards{
+  padding: 1em;
+  display: block;
+  grid-template-columns: repeat(2, 0fr); 
+  gap: 2rem;
+  position: relative;
+  align-items: center;
+  justify-content: center; 
+  padding-bottom: 2em;
+
+}
+.homeBtn{
+  transform: skewY(-1deg);
+}
+.About-container{
+  padding-top: 1em;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+}

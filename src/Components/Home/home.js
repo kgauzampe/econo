@@ -45,7 +45,7 @@ const Home = () => {
                         <Typography variant="h3" component="h3" className="hometag">
                             YOUR IT CONSULTING AND TRAINING PARTNER
                         </Typography>
-                        <Typography variant="h5" component="h5" className="hometag">
+                        <Typography variant="h5" component="h5" className="hometag2">
                             Providing Businesses Solutions to Optimise and Grow Their Technology
                         </Typography>
                     </div>

@@ -23,9 +23,7 @@
     display: block;
     margin: 0 auto; 
   }
-  /* .custom-bullet {
-    list-style-type: disc; 
-  } */
+
   .servBtn{
     padding: 2em;
     display: block;
@@ -36,4 +34,21 @@
     justify-content: center;
     align-items: center !important;
     text-align: center;
+  }
+  @media (max-width: 768px) {
+    .Serv1-typo{
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+      text-align: center;
+    }
+    .serv1-article{
+      width: 15em;
+      display: block;
+      margin: 0 auto; 
+    }
+    .serv-image1{
+      width: 15em;
+      height: 15em;
+    }
   }
