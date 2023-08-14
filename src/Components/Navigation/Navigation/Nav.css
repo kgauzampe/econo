@@ -13,8 +13,8 @@
 }
 
 .nav-items{
-  display: flex; /* Use flex display to align items horizontally */
-  justify-content: flex-start; /* Align items to the left */
+  display: flex; 
+  justify-content: flex-start; 
   align-items: center;
   width: 100%;
 }

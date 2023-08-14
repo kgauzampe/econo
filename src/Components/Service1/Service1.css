@@ -23,9 +23,9 @@
     display: block;
     margin: 0 auto; 
   }
-  .custom-bullet {
+  /* .custom-bullet {
     list-style-type: disc; 
-  }
+  } */
   .servBtn{
     padding: 2em;
     display: block;

@@ -15,7 +15,7 @@ const Service4 = () => {
             <Navbar />
             <Container>
                 <div className="Service4-content">
-                    <Typography variant="h3" component="h3" className="Serv1">
+                    <Typography variant="h3" component="h3" className="Serv4-typo">
                         Gain Expert Insights with Software QA Consultancy Services
                     </Typography>
                     <br />

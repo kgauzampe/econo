@@ -20,3 +20,12 @@
   display: block;
   margin: 0 auto; 
 }
+.Service3{
+    text-align: start;
+}
+.Serv3-typo{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+  }

@@ -15,7 +15,7 @@ const Service2 = () => {
             <Navbar />
             <Container>
                 <div className="Service2-content">
-                    <Typography variant="h3" component="h3" className="Serv1">
+                    <Typography variant="h3" component="h3" className="Serv2-typo">
                         IT Training From Work-Class Experts
                     </Typography>
                     <br />

@@ -94,7 +94,7 @@ const Service1 = () => {
                                 • Authoring over 3 distinguished computer science textbooks
                                 <br />
                                 <br />
-                                • Empower your team with EconoTeque's Software QA Training – your gateway to mastering the art of software quality assurance and propelling your business to new heights of excellence.
+                                Empower your team with EconoTeque's Software QA Training – your gateway to mastering the art of software quality assurance and propelling your business to new heights of excellence.
                             </Typography>
                         </div>
                         <div className=" servBtn">
