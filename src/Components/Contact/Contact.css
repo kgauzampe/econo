@@ -9,6 +9,7 @@
     text-align: start;    
 }
 .sendBtn{
+    display: flex;
     position: relative;
     margin: 1em;
     justify-content: center;
