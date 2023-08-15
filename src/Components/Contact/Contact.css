@@ -1,15 +1,7 @@
 .contact{
     padding: 2em;
 }
-.name {
-    height: 11.5px !important;
-    width: 553px !important;
+.contact-con{
+    border: 2px solid black; 
+    padding: 10px; 
 }
-
-/* .contact-con{
-    margin-bottom: 20px;
-}
-.footer-con{
-    position: relative;
-    margin-bottom: 20px;
-} */

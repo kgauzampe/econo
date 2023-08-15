@@ -17,17 +17,72 @@ const Contact = () => {
             <Navbar />
             <div className="contact-con">
                 <Typography   >Name</Typography>
-                <TextField label="Name" variant="outlined"  id="filled-basic" size="small" className="name"/>
+                <TextField 
+                label="Name" 
+                variant="outlined"  
+                id="filled-basic" 
+                size="small"
+                sx={{
+                    width: 500
+                }}
+                InputProps={{ sx: { height: 30 } }}
+                placeholder="SX + InputProps"
+                 />
                 <Typography  id="filled-basic">Surname</Typography>
-                <TextField label="Surname" variant="outlined" size="small"/>
+                <TextField 
+                label="Surname" 
+                variant="outlined" 
+                size="small"
+                sx={{
+                    width: 500
+                }}
+                InputProps={{ sx: { height: 30 } }}
+                placeholder="SX + InputProps"
+                />
                 <Typography  id="filled-basic">Email Address</Typography>
-                <TextField label="Email" variant="outlined" size="small"/>
+                <TextField 
+                label="Email" 
+                variant="outlined" 
+                size="small"
+                sx={{
+                    width: 500
+                }}
+                InputProps={{ sx: { height: 30 } }}
+                placeholder="SX + InputProps"
+                />
                 <Typography  id="filled-basic">Contact Number</Typography>
-                <TextField label="Contact Number" variant="outlined" size="small"/>
+                <TextField 
+                label="Contact Number" 
+                variant="outlined" 
+                size="small"
+                sx={{
+                    width: 500
+                }}
+                InputProps={{ sx: { height: 30 } }}
+                placeholder="SX + InputProps"
+                />
                 <Typography  id="filled-basic">Country</Typography>
-                <TextField label="Country" variant="outlined" size="small"/>
+                <TextField 
+                label="Country" 
+                variant="outlined" 
+                size="small"
+                sx={{
+                    width: 500
+                }}
+                InputProps={{ sx: { height: 30 } }}
+                placeholder="SX + InputProps"
+                />
                 <Typography  id="filled-basic">City/Town</Typography>
-                <TextField label="City/Town" variant="outlined" size="small"/>
+                <TextField 
+                label="City/Town" 
+                variant="outlined" 
+                size="small"
+                sx={{
+                    width: 500
+                }}
+                InputProps={{ sx: { height: 30 } }}
+                placeholder="SX + InputProps"
+                />
                 <div className="radio">
                 <FormControl component="fieldset">
                     <Typography>
@@ -46,7 +101,13 @@ const Contact = () => {
                 </FormControl>
                 </div>
                 <Typography  id="filled-basic">Message</Typography>
-                <TextField  variant="outlined" />
+                <TextField  
+                variant="outlined"
+                sx={{
+                    width: 500
+                }}
+                InputProps={{ sx: { height: 190 } }}
+                />
             </div>
             <div className="footer-con">
             <Footer />
