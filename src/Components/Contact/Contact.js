@@ -50,7 +50,6 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
-                    placeholder="SX + InputProps"
                 />
                 <Typography id="filled-basic">Contact Number</Typography>
                 <TextField
@@ -61,7 +60,6 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
-                    placeholder="SX + InputProps"
                 />
                 <Typography id="filled-basic">Country</Typography>
                 <TextField
