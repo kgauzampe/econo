@@ -3,7 +3,8 @@
     color: #fff;
     padding: 1rem;
     text-align: center;
-    padding-top: em;
+    position: relative;
+  
   }
   
   .footer-content {
@@ -41,6 +42,7 @@
     font-size: small;
     color: rgba(255, 255, 255, 0.7);
   }
+  
   
   @media (max-width: 768px) {
     .footer {

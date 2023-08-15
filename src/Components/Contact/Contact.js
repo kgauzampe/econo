@@ -17,7 +17,7 @@ const Contact = () => {
             <Navbar />
             <div className="contact-con">
                 <Typography   >Name</Typography>
-                <TextField label="Name" variant="outlined"  id="filled-basic" size="small"/>
+                <TextField label="Name" variant="outlined"  id="filled-basic" size="small" className="name"/>
                 <Typography  id="filled-basic">Surname</Typography>
                 <TextField label="Surname" variant="outlined" size="small"/>
                 <Typography  id="filled-basic">Email Address</Typography>
@@ -51,8 +51,9 @@ const Contact = () => {
             <div className="footer-con">
             <Footer />
             </div>
-       
+          
         </div>
+     
     )
 
 }

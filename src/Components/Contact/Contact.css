@@ -1,6 +1,15 @@
-.contact-con{
-    padding-bottom: 2em;
+.contact{
+    padding: 2em;
+}
+.name {
+    height: 11.5px !important;
+    width: 553px !important;
+}
+
+/* .contact-con{
+    margin-bottom: 20px;
 }
 .footer-con{
-    padding-top: 2em;
-}
+    position: relative;
+    margin-bottom: 20px;
+} */
