@@ -72,7 +72,6 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
-                    placeholder="SX + InputProps"
                 />
                 <Typography id="filled-basic">City/Town</Typography>
                 <TextField
@@ -83,7 +82,6 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
-                    placeholder="SX + InputProps"
                 />
                 <div className="radio">
                     <FormControl component="fieldset">
