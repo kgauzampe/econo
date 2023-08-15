@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="contact">
             <Navbar />
             <div className="contact-con">
-                <Typography   >Name</Typography>
+                <Typography>Name</Typography>
                 <TextField
                     label="Name"
                     variant="outlined"
@@ -28,7 +28,6 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
-                    placeholder="SX + InputProps"
                 />
                 <Typography id="filled-basic">Surname</Typography>
                 <TextField
@@ -39,7 +38,6 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
-                    placeholder="SX + InputProps"
                 />
                 <Typography id="filled-basic">Email Address</Typography>
                 <TextField
