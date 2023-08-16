@@ -6,6 +6,10 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { FormControl, FormControlLabel, Radio, RadioGroup } from '@mui/material';
 import './Contact.css'
+import axios from 'axios';
+
+
+
 
 
 const Contact = () => {
@@ -14,6 +18,8 @@ const Contact = () => {
     const handleChange = (event) => {
         setSelectedValue(event.target.value);
     };
+
+      
     return (
         <div className="contact">
             <Navbar />
@@ -105,7 +111,7 @@ const Contact = () => {
                     InputProps={{ sx: { height: 190 } }}
                 />
                 <div className="sendBtn">
-                    <Button variant="contained" size="medium" className="homeBtn">
+                    <Button onClick={sendEmail} variant="contained" size="medium" className="homeBtn">
                         Send
                     </Button>
                 </div>
