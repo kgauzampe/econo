@@ -5,13 +5,8 @@ import { Typography } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { FormControl, FormControlLabel, Radio, RadioGroup } from '@mui/material';
-import './Contact.css'
-
-
-
-
-
-
+import { useForm } from '@formspree/react';
+import './Contact.css';
 
 const Contact = () => {
     const [selectedValue, setSelectedValue] = useState('option1');
@@ -20,11 +15,12 @@ const Contact = () => {
         setSelectedValue(event.target.value);
     };
 
-      
+    const [state, handleSubmit] = useForm('your-form-id'); // Replace 'your-form-id' with your Formspree form ID
+
     return (
         <div className="contact">
             <Navbar />
-            <div className="contact-con">
+            <form className="contact-con" onSubmit={handleSubmit}>
                 <Typography>Name</Typography>
                 <TextField
                     label="Name"
@@ -112,24 +108,22 @@ const Contact = () => {
                     InputProps={{ sx: { height: 190 } }}
                 />
                 <div className="sendBtn">
-                    <Button 
-                    // onClick={sendEmail} 
-                    variant="contained" 
-                    size="medium" 
-                    className="homeBtn"
+                    <Button
+                        type="submit"
+                        disabled={state.submitting}
+                        variant="contained"
+                        size="medium"
+                        className="homeBtn"
                     >
                         Send
                     </Button>
                 </div>
-            </div>
-
+            </form>
             <div className="footer-con">
                 <Footer />
             </div>
-
         </div>
-
     )
-
 }
+
 export default Contact;
