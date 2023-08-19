@@ -6,7 +6,15 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { FormControl, FormControlLabel, Radio, RadioGroup } from '@mui/material';
 import { useForm } from '@formspree/react';
+import Snackbar from "@mui/material/Snackbar";
+import MuiAlert from "@mui/material/Alert";
 import './Contact.css';
+
+
+function Alert(props) {
+    return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
+
 
 const Contact = () => {
     const [selectedValue, setSelectedValue] = useState('');
@@ -17,19 +25,79 @@ const Contact = () => {
     const [country, setCountry] = useState('');
     const [city, setCity] = useState('');
     const [message, setMessage] = useState('');
+    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+    const [showErrorMessage, setShowErrorMessage] = useState(false);
+
+    const handleSuccessClick = () => {
+        setShowSuccessMessage(true);
+        setShowErrorMessage(false);
+    };
+
+    const handleErrorClick = () => {
+        setShowSuccessMessage(false);
+        setShowErrorMessage(true);
+    };
+
+    const handleClose = () => {
+        setShowSuccessMessage(false);
+        setShowErrorMessage(false);
+    };
 
     const handleChange = (event) => {
         setSelectedValue(event.target.value);
-        // setName(event.target.value);
-        // setSurname(event.target.value);
-        // setEmail(event.target.value);
-        // setContact(event.target.value);
-        // setCountry(event.target.value);
-        // setCity(event.target.value);
-        // setMessage(event.target.value);
+
     };
 
     const [state, handleSubmit] = useForm('xgejkezo');
+
+    const submitForm = async (event) => {
+        event.preventDefault();
+    
+        const formData = {
+            name,
+            surname,
+            email,
+            contact,
+            country,
+            city,
+            selectedValue,
+            message,
+        };
+    
+        try {
+            const response = await handleSubmit();
+    
+            if (response.ok) {
+                setShowSuccessMessage(true);
+                setShowErrorMessage(false);
+    
+         
+                setName('');
+                setSurname('');
+                setEmail('');
+                setContact('');
+                setCountry('');
+                setCity('');
+                setSelectedValue('');
+                setMessage('');
+            } else {
+                setShowSuccessMessage(false);
+                setShowErrorMessage(true);
+    
+              
+                // console.error('Form Submission Error:', response);
+            }
+        } catch (error) {
+            setShowSuccessMessage(false);
+            setShowErrorMessage(true);
+    
+        
+            // console.error('Form Submission Error:', error);
+        }
+    };
+    
+
+
 
     return (
         <div className="contact">
@@ -138,6 +206,7 @@ const Contact = () => {
                 <div className="sendBtn">
                     <Button
                         type="submit"
+                        onClick={submitForm}
                         disabled={state.submitting}
                         variant="contained"
                         size="medium"
@@ -145,6 +214,11 @@ const Contact = () => {
                     >
                         Send
                     </Button>
+                    <Snackbar open={showSuccessMessage || showErrorMessage} autoHideDuration={3000} onClose={handleClose}>
+                        <Alert onClose={handleClose} severity={showSuccessMessage ? "success" : "error"}>
+                            {showSuccessMessage ? "Action was successful!" : "An error occurred."}
+                        </Alert>
+                    </Snackbar>
                 </div>
             </form>
             <div className="footer-con">
