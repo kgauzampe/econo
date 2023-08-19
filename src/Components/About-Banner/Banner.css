@@ -39,6 +39,9 @@
       border-radius: 50%;
       width: 300px;
     }
+    .image-text{
+      margin-left: 1em !important;
+    }
   }
   .image-text{
     position: relative;
