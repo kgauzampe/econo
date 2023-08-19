@@ -25,23 +25,9 @@ const Contact = () => {
     const [country, setCountry] = useState('');
     const [city, setCity] = useState('');
     const [message, setMessage] = useState('');
-    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-    const [showErrorMessage, setShowErrorMessage] = useState(false);
+    const [successMessage, setSuccessMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
 
-    const handleSuccessClick = () => {
-        setShowSuccessMessage(true);
-        setShowErrorMessage(false);
-    };
-
-    const handleErrorClick = () => {
-        setShowSuccessMessage(false);
-        setShowErrorMessage(true);
-    };
-
-    const handleClose = () => {
-        setShowSuccessMessage(false);
-        setShowErrorMessage(false);
-    };
 
     const handleChange = (event) => {
         setSelectedValue(event.target.value);
@@ -52,7 +38,7 @@ const Contact = () => {
 
     const submitForm = async (event) => {
         event.preventDefault();
-    
+
         const formData = {
             name,
             surname,
@@ -63,15 +49,15 @@ const Contact = () => {
             selectedValue,
             message,
         };
-    
+
         try {
-            const response = await handleSubmit();
-    
+            const response = await handleSubmit(formData);
+
             if (response.ok) {
-                setShowSuccessMessage(true);
-                setShowErrorMessage(false);
-    
-         
+                setSuccessMessage('Form submitted successfully!');
+                setErrorMessage('');
+
+
                 setName('');
                 setSurname('');
                 setEmail('');
@@ -81,21 +67,18 @@ const Contact = () => {
                 setSelectedValue('');
                 setMessage('');
             } else {
-                setShowSuccessMessage(false);
-                setShowErrorMessage(true);
-    
-              
-                // console.error('Form Submission Error:', response);
+                setErrorMessage('');
+                setSuccessMessage('submitting the form.');
+
+
             }
         } catch (error) {
-            setShowSuccessMessage(false);
-            setShowErrorMessage(true);
-    
-        
-            // console.error('Form Submission Error:', error);
+            setErrorMessage('An error occurred while submitting the form.');
+            setSuccessMessage('');
+
         }
     };
-    
+
 
 
 
@@ -133,6 +116,9 @@ const Contact = () => {
                     label="Email"
                     variant="outlined"
                     size="small"
+                    name="email"
+                    type="email"
+                    id="email"
                     sx={{
                         width: 500
                     }}
@@ -214,11 +200,8 @@ const Contact = () => {
                     >
                         Send
                     </Button>
-                    <Snackbar open={showSuccessMessage || showErrorMessage} autoHideDuration={3000} onClose={handleClose}>
-                        <Alert onClose={handleClose} severity={showSuccessMessage ? "success" : "error"}>
-                            {showSuccessMessage ? "Action was successful!" : "An error occurred."}
-                        </Alert>
-                    </Snackbar>
+                    {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
+                    {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
                 </div>
             </form>
             <div className="footer-con">
