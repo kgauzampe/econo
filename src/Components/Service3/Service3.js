@@ -5,7 +5,7 @@ import Footer from "../Footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
-import Serv3 from '../../Images/card3.png'
+import Serv3 from '../../Images/IT Consultancy.png'
 
 
 const Service3 = () => {
