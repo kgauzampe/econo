@@ -9,13 +9,20 @@ import { useForm } from '@formspree/react';
 import './Contact.css';
 
 const Contact = () => {
-    const [selectedValue, setSelectedValue] = useState('option1');
+    const [selectedValue, setSelectedValue] = useState('');
+    const [name, setName] = useState('');
+    const [surname, setSurname] = useState('');
+    const [email, setEmail] = useState('');
+    const [contact, setContact] = useState('');
+    const [country, setCountry] = useState('');
+    const [city, setCity] = useState('');
+    const [message, setMessage] = useState('');
 
     const handleChange = (event) => {
         setSelectedValue(event.target.value);
     };
 
-    const [state, handleSubmit] = useForm('your-form-id'); // Replace 'your-form-id' with your Formspree form ID
+    const [state, handleSubmit] = useForm('xgejkezo');
 
     return (
         <div className="contact">
@@ -31,6 +38,8 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
+                    value={name}
+                    onChange={(event) => setName(event.target.value)}
                 />
                 <Typography id="filled-basic">Surname</Typography>
                 <TextField
@@ -41,6 +50,8 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
+                    value={surname}
+                    onChange={(event) => setSurname(event.target.value)}
                 />
                 <Typography id="filled-basic">Email Address</Typography>
                 <TextField
@@ -51,6 +62,8 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
+                    value={email}
+                    onChange={(event) => setEmail(event.target.value)}
                 />
                 <Typography id="filled-basic">Contact Number</Typography>
                 <TextField
@@ -61,6 +74,8 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
+                    value={contact}
+                    onChange={(event) => setContact(event.target.value)}
                 />
                 <Typography id="filled-basic">Country</Typography>
                 <TextField
@@ -71,6 +86,8 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
+                    value={country}
+                    onChange={(event) => setCountry(event.target.value)}
                 />
                 <Typography id="filled-basic">City/Town</Typography>
                 <TextField
@@ -81,6 +98,8 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 30 } }}
+                    value={city}
+                    onChange={(event) => setCity(event.target.value)}
                 />
                 <div className="radio">
                     <FormControl component="fieldset">
@@ -93,9 +112,9 @@ const Contact = () => {
                             value={selectedValue}
                             onChange={handleChange}
                         >
-                            <FormControlLabel value="option1" control={<Radio />} label="IT Consulting" />
-                            <FormControlLabel value="option2" control={<Radio />} label="IT Training" />
-                            <FormControlLabel value="option3" control={<Radio />} label="Other" />
+                            <FormControlLabel value="IT Consulting" control={<Radio />} label="IT Consulting" />
+                            <FormControlLabel value="IT Training" control={<Radio />} label="IT Training" />
+                            <FormControlLabel value="Other" control={<Radio />} label="Other" />
                         </RadioGroup>
                     </FormControl>
                 </div>
@@ -106,6 +125,8 @@ const Contact = () => {
                         width: 500
                     }}
                     InputProps={{ sx: { height: 190 } }}
+                    value={message}
+                    onChange={(event) => setMessage(event.target.value)}
                 />
                 <div className="sendBtn">
                     <Button
