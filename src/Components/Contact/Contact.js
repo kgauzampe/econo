@@ -20,6 +20,13 @@ const Contact = () => {
 
     const handleChange = (event) => {
         setSelectedValue(event.target.value);
+        setName(event.target.value);
+        setSurname(event.target.value);
+        setEmail(event.target.value);
+        setContact(event.target.value);
+        setCountry(event.target.value);
+        setCity(event.target.value);
+        setMessage(event.target.value);
     };
 
     const [state, handleSubmit] = useForm('xgejkezo');
