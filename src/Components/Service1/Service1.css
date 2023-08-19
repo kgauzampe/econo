@@ -36,6 +36,10 @@
     align-items: center !important;
     text-align: center;
   }
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #FFFF00 !important;
+    color: black !important;
+  }
   @media (max-width: 768px) {
     .Serv1-typo{
       display: flex;

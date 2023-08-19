@@ -29,3 +29,7 @@
     align-items: center !important;
     text-align: center;
   }
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #FFFF00 !important;
+    color: black !important;
+  }
