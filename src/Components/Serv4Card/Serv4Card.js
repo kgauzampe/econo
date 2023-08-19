@@ -6,7 +6,7 @@ const Serv4Card = () => {
   return (
     <Link to="/Service4" style={{ textDecoration: 'none', color: 'inherit' }}>
       <Card4
-        title="Software QA Training"
+        title="Software QA Consultancy"
         imageUrl="path_to_image.jpg"
       />
     </Link>
