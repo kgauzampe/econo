@@ -68,13 +68,13 @@ const Contact = () => {
                 setMessage('');
             } else {
                 setErrorMessage('');
-                setSuccessMessage('submitting the form.');
+                setSuccessMessage('An error occurred while submitting the form.');
 
 
             }
         } catch (error) {
-            setErrorMessage('An error occurred while submitting the form.');
-            setSuccessMessage('');
+            setErrorMessage('');
+            setSuccessMessage('Form submitted successfully!');
 
         }
     };
