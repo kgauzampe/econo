@@ -70,6 +70,33 @@ const Service2 = () => {
                                 By recognizing these signs and investing in IT training, you empower your team to navigate the digital landscape easily,
                                 turning potential challenges into opportunities for skill enhancement and success.
                             </Typography>
+                            <Typography variant="h5" component="h5" className="Serv1-t">
+                                Why Choose EconoTeque's IT Training Service?
+                            </Typography>
+                            <br />
+                            <br />
+                            <Typography variant="body1" className="body1">
+
+                                Our belief is anchored in the value of genuine expertise combined with a talent for
+                                imparting technological knowledge. That's why at EconoTeque, our CEO and lead
+                                consultant Dr Overton personally spearheads training initiatives for both Industry
+                                and Vocational Training. This hands-on approach ensures that your teams receive
+                                guidance from a true expert who excels not only in their field but also in the
+                                art of effective teaching.
+
+                            </Typography>
+                            <Typography component="div" >
+                                Interesting Fact About Dr Overton:
+                                <br />
+                                <br />
+                                • Holds a PhD in Computer Science
+                                <br />
+                                • Was the Lead Integration Engineer – Deputy Chief Engineer at the US Airforce and saved them $6.2 million
+                                <br />
+                                • Chair of the Computer Information Systems Bachelors Program @ the Remington College( Memphis, Tennessee USA)
+                                <br />
+                                • An author of over 3 computer science textbooks
+                            </Typography>
                         </div>
                         <div className=" servBtn">
                             <Button variant="contained" size="medium" className="serv1Btn">

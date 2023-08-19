@@ -84,15 +84,11 @@ const Service1 = () => {
                                 <br />
                                 • Holding a PhD in Computer Science
                                 <br />
-                                <br />
                                 • Serving as the Lead Integration Engineer – Deputy Chief Engineer at the US Airforce, achieving savings of $6.2 million
-                                <br />
                                 <br />
                                 • Chairing the Computer Information Systems Bachelors Program @ the Remington College (Memphis, Tennessee, USA)
                                 <br />
-                                <br />
                                 • Authoring over 3 distinguished computer science textbooks
-                                <br />
                                 <br />
                                 Empower your team with EconoTeque's Software QA Training – your gateway to mastering the art of software quality assurance and propelling your business to new heights of excellence.
                             </Typography>
