@@ -41,6 +41,7 @@
     }
   }
   .image-text{
+    position: relative;
     font-family: Inter; 
     font-size: 20px !important;   
     font-style: italic;
@@ -48,4 +49,5 @@
     line-height: 22px; 
     letter-spacing: 0em; 
     text-align: center;   
+    margin-left: 5em !important;
   }
