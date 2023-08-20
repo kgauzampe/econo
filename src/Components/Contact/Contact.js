@@ -93,7 +93,10 @@ const Contact = () => {
                     id="filled-basic"
                     size="small"
                     sx={{
-                        width: 500
+                        width: '100%',  
+                        '@media (max-width: 600px)': {
+                            width: '100%', 
+                        },
                     }}
                     InputProps={{ sx: { height: 30 } }}
                     value={name}
@@ -105,7 +108,10 @@ const Contact = () => {
                     variant="outlined"
                     size="small"
                     sx={{
-                        width: 500
+                        width: '100%',  
+                        '@media (max-width: 600px)': {
+                            width: '100%', 
+                        },
                     }}
                     InputProps={{ sx: { height: 30 } }}
                     value={surname}
@@ -120,7 +126,10 @@ const Contact = () => {
                     type="email"
                     id="email"
                     sx={{
-                        width: 500
+                        width: '100%',  
+                        '@media (max-width: 600px)': {
+                            width: '100%', 
+                        },
                     }}
                     InputProps={{ sx: { height: 30 } }}
                     value={email}
@@ -132,7 +141,10 @@ const Contact = () => {
                     variant="outlined"
                     size="small"
                     sx={{
-                        width: 500
+                        width: '100%',  
+                        '@media (max-width: 600px)': {
+                            width: '100%', 
+                        },
                     }}
                     InputProps={{ sx: { height: 30 } }}
                     value={contact}
@@ -144,7 +156,10 @@ const Contact = () => {
                     variant="outlined"
                     size="small"
                     sx={{
-                        width: 500
+                        width: '100%',  
+                        '@media (max-width: 600px)': {
+                            width: '100%', 
+                        },
                     }}
                     InputProps={{ sx: { height: 30 } }}
                     value={country}
@@ -156,7 +171,10 @@ const Contact = () => {
                     variant="outlined"
                     size="small"
                     sx={{
-                        width: 500
+                        width: '100%',  
+                        '@media (max-width: 600px)': {
+                            width: '100%', 
+                        },
                     }}
                     InputProps={{ sx: { height: 30 } }}
                     value={city}
@@ -183,9 +201,12 @@ const Contact = () => {
                 <TextField
                     variant="outlined"
                     sx={{
-                        width: 500
+                        width: '100%',  
+                        '@media (max-width: 600px)': {
+                            width: '100%', 
+                        },
                     }}
-                    InputProps={{ sx: { height: 190 } }}
+                    InputProps={{ sx: { height: 30 } }}
                     value={message}
                     onChange={(event) => setMessage(event.target.value)}
                 />
