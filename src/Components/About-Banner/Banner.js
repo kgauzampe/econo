@@ -39,7 +39,13 @@ const Banner = () => {
               Come join us, and together, let's unleash the full potential of IT in your business.
             </Typography>
             <div className='bannerBtndiv'>
-              <Button variant="contained" size="medium" className="bannerBtn">
+              <Button
+                variant="contained"
+                size="medium"
+                className="bannerBtn"
+                href="https://calendly.com/droverton/econoteque-consultation"
+                target="_blank"
+              >
                 schedule a consultation
               </Button>
             </div>
