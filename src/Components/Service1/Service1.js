@@ -94,9 +94,15 @@ const Service1 = () => {
                             </Typography>
                         </div>
                         <div className=" servBtn">
-                        <Button variant="contained" size="medium" className="serv1Btn">
-                            schedule a consultation
-                        </Button>
+                            <Button
+                                variant="contained"
+                                size="medium"
+                                className="serv1Btn"
+                                href="https://calendly.com/droverton/econoteque-consultation"
+                                target="_blank"
+                            >
+                                schedule a consultation
+                            </Button>
                         </div>
                     </div>
                 </div>

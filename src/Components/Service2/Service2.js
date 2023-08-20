@@ -99,7 +99,13 @@ const Service2 = () => {
                             </Typography>
                         </div>
                         <div className=" servBtn">
-                            <Button variant="contained" size="medium" className="serv1Btn">
+                            <Button
+                                variant="contained"
+                                size="medium"
+                                className="serv1Btn"
+                                href="https://calendly.com/droverton/econoteque-consultation"
+                                target="_blank"
+                            >
                                 schedule a consultation
                             </Button>
                         </div>
