@@ -41,6 +41,10 @@
     }
     .image-text{
       margin-left: 1em !important;
+      display: none;
+    }
+    .aboutimg{
+      display: none;
     }
   }
   .image-text{
