@@ -21,7 +21,15 @@ const Navbar = () => {
         <div className="links">
         <Link to="/">Home</Link>
         <Link to="#about">About</Link>
-        <Link to="#Services">Services</Link>
+        <div className="dropdown">
+          <span className="dropdown-toggle">Services</span>
+          <div className="dropdown-content">
+            <Link to="/service1">Software QA Training</Link>
+            <Link to="/service2">IT Training</Link>
+            <Link to="/service3">IT consultancy</Link>
+            <Link to="/service4">Software QA consultancy</Link>
+          </div>
+        </div>
         <Link to="/Contact">Contact</Link>
         </div>
       </div>
