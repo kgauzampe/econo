@@ -50,4 +50,10 @@
       width: 15em;
       height: 15em;
     }
+    .servBtn{
+        padding: 2em;
+        display: block;
+        margin: 0 auto; 
+        margin-left: 2em;
+      }
   }
