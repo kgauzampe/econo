@@ -34,3 +34,20 @@
     background-color: #FFFF00 !important;
     color: black !important;
   }
+  @media (max-width: 768px) {
+    .Serv4-typo{
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+      text-align: center;
+    }
+    .serv4-article{
+      width: 15em;
+      display: block;
+      margin: 0 auto; 
+    }
+    .serv-image4{
+      width: 15em;
+      height: 15em;
+    }
+  }

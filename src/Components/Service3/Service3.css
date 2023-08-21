@@ -33,3 +33,20 @@
     background-color: #FFFF00 !important;
     color: black !important;
   }
+  @media (max-width: 768px) {
+    .Serv3-typo{
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+      text-align: center;
+    }
+    .serv3-article{
+      width: 15em;
+      display: block;
+      margin: 0 auto; 
+    }
+    .serv-image3{
+      width: 15em;
+      height: 15em;
+    }
+  }
