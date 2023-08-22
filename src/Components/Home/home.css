@@ -94,7 +94,7 @@
 }
 
 .about-cards{
-  padding: 1em;
+  /* padding: 1em; */
   display: block;
   grid-template-columns: repeat(2, 0fr); 
   gap: 2rem;
