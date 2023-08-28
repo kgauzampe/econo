@@ -1,5 +1,4 @@
-
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +6,10 @@
   color: #333; 
   padding: 0.5rem;
 }
-
+.logo{
+  position: relative;
+  margin-right: auto;
+}
 .nav-brand {
   font-size: 1.5rem;
 }
@@ -31,7 +33,7 @@
   .dropdown {
     position: relative;
     display: inline-block;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px;
   }
   
   .dropdown-toggle {
@@ -70,27 +72,17 @@
       width: 100%;
       text-align: center;
     }
-
-    .nav-items .active {
-      display: block;
-    }
   
     .nav-items a {
-      margin: 1rem;
+      margin: 0.5rem;
     }
   
-    
-    .nav-toggle {
-      display: block;
-      cursor: pointer;
-    }
-  
-    .burger {
+    .nav-toggle .burger {
       width: 25px;
       height: 2px;
       background-color: #333;
       color: #0D267F;
-      /* margin: 5px; */
+      margin: 5px;
       transition: 0.4s;
     }
 
@@ -105,14 +97,75 @@
     .toggle .burger:nth-child(3) {
       transform: rotate(45deg) translate(-5px, -6px);
     }
-  
 
-    /* .nav-active {
-      display: flex;
-    } */
+    .nav-toggle {
+      display: block;
+      background-color: pink;
+    }
   
   }
   .logo {
     max-width: 70px; 
     height: auto;
   }
+ */
+ .logo{
+  position: relative;
+  margin-right: auto;
+  max-width: 70px; 
+  height: auto;
+}
+.customAppBar {
+  background-color: #FF5733; 
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s ease;
+  }
+
+  &::before {
+    top: 12px;
+  }
+
+  &::after {
+    top: 24px;
+  }
+
+  &.open::before {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  &.open::after {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+
+    justify-content: space-between; 
+    padding: 0 40px; 
+    background-color: aqua;
+  }
+
+  .navbar-title {
+    margin-left: 0; 
+    background-color: aqua;
+  }
+
+  .drawer {
+    display: none; 
+    background-color: aqua;
+  }
+
+  .drawer-list {
+    display: none;
+    color: white;
+    background-color: aqua;
+  }
+}
