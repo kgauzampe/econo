@@ -115,6 +115,30 @@
   max-width: 70px; 
   height: auto;
 }
+.links{
+  position: relative;
+  margin-left: auto;
+  color: #333;
+  text-decoration: none !important;
+  display: flex;
+  gap: 20px; 
+}
+.nav-items{
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center;
+  width: 100%;
+}
+.nav-items .links{
+  margin-left: auto;
+}
+
+
+  .nav-items a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
 .customAppBar {
   background-color: #FF5733; 
   &::before,
@@ -146,8 +170,7 @@
 
 @media (min-width: 768px) {
   .navbar {
-    flex-direction: row;
-
+    flex-direction: column;
     justify-content: space-between; 
     padding: 0 40px; 
     background-color: aqua;
@@ -159,12 +182,12 @@
   }
 
   .drawer {
-    display: none; 
+    display: block; 
     background-color: aqua;
   }
 
   .drawer-list {
-    display: none;
+    display: block;
     color: white;
     background-color: aqua;
   }
