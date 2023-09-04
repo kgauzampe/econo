@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className={`menu ${isOpen ? 'active' : ''}`}>
         <ul>
           <li>
-            <Link to="/" spy={true} smooth={true} duration={500}>
+            <Link to="/" spy={true} smooth={true} duration={500} className='link'>
               Home
             </Link>
           </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <Link to="/Contact" spy={true} smooth={true} duration={500}>
+            <Link to="/Contact" spy={true} smooth={true} duration={500} className='link'>
               Contact
             </Link>
           </li>

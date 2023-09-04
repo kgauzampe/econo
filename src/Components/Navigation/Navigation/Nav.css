@@ -18,10 +18,17 @@
   list-style: none;
   display: flex;
   gap: 20px;
+  text-decoration: none;
 }
 
 .menu ul li {
   position: relative;
+  text-decoration: none;
+}
+.link{
+  position: relative;
+  text-decoration: none;
+  color: black;
 }
 
 .menu ul li span {
