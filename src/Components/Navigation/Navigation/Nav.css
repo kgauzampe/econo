@@ -46,8 +46,11 @@
 }
   .links-drawer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+    
   }
-
+  .css-1d6w9lk-MuiButtonBase-root-MuiIconButton-root:hover {
+    margin-left: auto !important;
+    position: relative;
+  }
 }
