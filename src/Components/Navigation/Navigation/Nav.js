@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import logo from '../../../Images/logox.png'
 import './Nav.css';
 
@@ -18,28 +19,34 @@ const Navbar = () => {
       <div className={`menu ${isOpen ? 'active' : ''}`}>
         <ul>
           <li>
-            <Link to="home" spy={true} smooth={true} duration={500}>
+            <Link to="/" spy={true} smooth={true} duration={500}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" spy={true} smooth={true} duration={500}>
+            <ScrollLink to="abtBanner" spy={true} smooth={true} duration={500}>
               About
-            </Link>
+            </ScrollLink>
           </li>
           <li className="dropdown">
             <span>Services</span>
             <div className="dropdown-content">
-              <Link to="service1" spy={true} smooth={true} duration={500}>
-                Service 1
+              <Link to="/service1" spy={true} smooth={true} duration={500}>
+                Software QA Training
               </Link>
-              <Link to="service2" spy={true} smooth={true} duration={500}>
-                Service 2
+              <Link to="/service2" spy={true} smooth={true} duration={500}>
+                IT Training
+              </Link>
+              <Link to="/service3" spy={true} smooth={true} duration={500}>
+                IT Consultancy
+              </Link>
+              <Link to="/service4" spy={true} smooth={true} duration={500}>
+                Software QA Consultancy
               </Link>
             </div>
           </li>
           <li>
-            <Link to="contact" spy={true} smooth={true} duration={500}>
+            <Link to="/Contact" spy={true} smooth={true} duration={500}>
               Contact
             </Link>
           </li>
