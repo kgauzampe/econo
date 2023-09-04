@@ -1,90 +1,56 @@
 import React, { useState } from 'react';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import Drawer from '@mui/material/Drawer';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { Link } from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll';
-import logo from "../../../Images/logox.png"
+import { Link } from 'react-scroll';
+import logo from '../../../Images/logox.png'
 import './Nav.css';
 
 const Navbar = () => {
-  const isMobile = useMediaQuery('(max-width:480px)');
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const toggleDrawer = (open) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-      return;
-    }
+  const [isOpen, setIsOpen] = useState(false);
 
-    setDrawerOpen(open);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <div>
-      <AppBar
-        className="navbar"
-        position="static"
-        style={{ backgroundColor: '#FFFFFF' }}>
-        <Toolbar>
-          {isMobile && (
-            <IconButton
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              onClick={toggleDrawer(true)}
-            >
-              <MenuIcon />
-            </IconButton>
-          )}
-
-          <div className="nav-brand">
-            <img src={logo} alt="Logo" className="logo" />
-          </div>
-          <div className="links">
-            <Link to="/">Home</Link>
-            <ScrollLink to="abtBanner" smooth={true} duration={500}>
+    <nav className="navbar">
+      <div className="logo">
+      <img src={logo} alt="logo" className="logo" />
+      </div>
+      <div className={`menu ${isOpen ? 'active' : ''}`}>
+        <ul>
+          <li>
+            <Link to="home" spy={true} smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" spy={true} smooth={true} duration={500}>
               About
-            </ScrollLink>
-            <div className="dropdown">
-              <span className="dropdown-toggle">Services</span>
-              <div className="dropdown-content">
-                <Link to="/service1">Software QA Training</Link>
-                <Link to="/service2">IT Training</Link>
-                <Link to="/service3">IT consultancy</Link>
-                <Link to="/service4">Software QA consultancy</Link>             
-                </div>
+            </Link>
+          </li>
+          <li className="dropdown">
+            <span>Services</span>
+            <div className="dropdown-content">
+              <Link to="service1" spy={true} smooth={true} duration={500}>
+                Service 1
+              </Link>
+              <Link to="service2" spy={true} smooth={true} duration={500}>
+                Service 2
+              </Link>
             </div>
-            <Link to="/Contact">Contact</Link>
-          </div>
-  
-        </Toolbar>
-      </AppBar>
-      {isMobile ? (
-        <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}  containerStyle={{height: 'calc(100% - 64px)', top: 64}}>
-          <div className="links-drawer">
-            <Link to="/">Home</Link>
-            <ScrollLink to="abtBanner" smooth={true} duration={500}>
-              About
-            </ScrollLink>
-            <div className="dropdown">
-              <span className="dropdown-toggle">Services</span>
-              <div className="dropdown-content">
-                <Link to="/service1">Software QA Training</Link>
-                <Link to="/service2">IT Training</Link>
-                <Link to="/service3">IT consultancy</Link>
-                <Link to="/service4">Software QA consultancy</Link>             
-                </div>
-            </div>
-            <Link to="/Contact">Contact</Link>
-          </div>
-        </Drawer>
-      ) : (
-        <div>
-        </div>
-      )}
-    </div>
+          </li>
+          <li>
+            <Link to="contact" spy={true} smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="burger-menu" onClick={toggleMenu}>
+        <div className={`bar ${isOpen ? 'active' : ''}`} />
+        <div className={`bar ${isOpen ? 'active' : ''}`} />
+        <div className={`bar ${isOpen ? 'active' : ''}`} />
+      </div>
+    </nav>
   );
 };
 

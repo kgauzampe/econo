@@ -1,56 +1,104 @@
- .logo {
-  position: relative;
-  margin-right: auto;
-  max-width: 70px; 
-  height: auto;
-}
+/* Navbar.css */
 
-.links {
-  position: relative;
-  margin-left: auto;
-  color: #333 !important;
-  text-decoration: none ;
-  display: flex !important;
-  gap: 20px; 
-}
-.nav-items {
-  display: none; 
-  justify-content: flex-start; 
+/* Common styles for both desktop and mobile */
+.navbar {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  text-decoration: none ;
-  width: 100%;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #333;
 }
 
-.nav-brand a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 1rem;
+.logo h1 {
+  margin: 0;
 }
 
-.css-i4bv87-MuiSvgIcon-root {
-  color: #333 !important;
-
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-@media (max-width: 768px) {
-  .navbar {
-    display: none;
-    justify-content: space-between; 
-    padding: 0 40px; 
-    background-color: aqua;
-  }
 
-.links {
+.menu ul li {
+  position: relative;
+}
+
+.menu ul li span {
+  cursor: pointer;
+}
+
+.menu ul li .dropdown-content {
   display: none;
-  color: white;
-  display: none !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px;
 }
-  .links-drawer{
-    display: grid;
-    grid-gap: 10px;
-    
+
+.menu ul li:hover .dropdown-content {
+  display: block;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.active .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.active .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+    z-index: 2; /* Add a higher z-index */
   }
-  .css-1d6w9lk-MuiButtonBase-root-MuiIconButton-root:hover {
-    margin-left: auto !important;
-    position: relative;
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    z-index: 1; /* Add a lower z-index */
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .menu.active a {
+    color: white;
+  }
+
+  .menu.active ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu.active li {
+    margin: 0;
+  }
+  .logo{
+    height: 100px;
   }
 }
