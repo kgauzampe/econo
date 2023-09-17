@@ -97,9 +97,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="getB">
-                    <Typography variant="h5" component="h5" >
-                        <img src={BannerImg2} alt="Card" className="banner-image2" />
-                    </Typography>
+                     <img src={BannerImg2} alt="Card" className="banner-image2" />
                 </div>
             </div>
             <Footer />
