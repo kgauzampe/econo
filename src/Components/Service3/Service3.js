@@ -32,6 +32,7 @@ const Service3 = () => {
                             enhancing operations and ensuring online security to guiding the implementation
                             of significant digital transformations.
                             <br />
+                            <br />
                             With Econoteque's expertise, your business is provided with sound guidance that
                             will help it navigate in today's world.
                         </Typography>
