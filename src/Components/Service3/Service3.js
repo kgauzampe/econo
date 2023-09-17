@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
 import Serv3 from '../../Images/IT Consultancy.png'
+import secondIMG3 from '../../Images/IT Consultancy Pic 2.png'
 
 
 const Service3 = () => {
@@ -100,6 +101,7 @@ const Service3 = () => {
                                 sustained growth—partner with us to gain a competitive advantage in today's digital
                                 business landscape.
                             </Typography>
+                            <img src={secondIMG3} alt="Card" className="serv-image3" />
                             <Typography variant="h5" component="h5" className="Serv1-t">
                                 Why Choose EconoTeque's IT Consultancy Service?
                             </Typography>

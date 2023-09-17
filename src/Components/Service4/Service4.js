@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
 import Serv4 from '../../Images/QA Services.png'
-
+import secondIMG4 from '../../Images/QA Consultancy Pic 2.png'
 
 const Service4 = () => {
 
@@ -93,6 +93,7 @@ const Service4 = () => {
                                 applications, and drive sustained excellence—partner with us to gain a competitive
                                 edge in today's digital landscape.
                             </Typography>
+                            <img src={secondIMG4} alt="Card" className="serv-image4" />
                             <Typography variant="h5" component="h5" className="Serv1-t">
                                 Why Choose EconoTeque's Software QA Consultancy Service?
                             </Typography>

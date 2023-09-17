@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
 import Serv1 from '../../Images/QA Training.png'
+import secondIMG from '../../Images/QA Training pic 2.png'
 
 const Service1 = () => {
 
@@ -74,6 +75,7 @@ const Service1 = () => {
                                 Beyond teaching, we empower your teams to elevate their problem-solving abilities and cultivate a comprehensive
                                 understanding of the software they test from its foundational core.
                             </Typography>
+                            <img src={secondIMG} alt="Card" className="serv-image1" />
                             <Typography variant="h5" component="h5" className="Serv1-t">
                                 Why Choose EconoTeque's Software QA Training?
                             </Typography>

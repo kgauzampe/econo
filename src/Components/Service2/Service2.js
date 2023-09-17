@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
 import Serv2 from '../../Images/IT Training.png'
-
+import secondIMG2 from '../../Images/IT Training Pic 2.png'
 
 const Service2 = () => {
 
@@ -71,11 +71,13 @@ const Service2 = () => {
                                 By recognizing these signs and investing in IT training, you empower your team to navigate the digital landscape easily,
                                 turning potential challenges into opportunities for skill enhancement and success.
                             </Typography>
+                            <img src={secondIMG2} alt="Card" className="serv-image2" />
                             <Typography variant="h5" component="h5" className="Serv1-t">
                                 Why Choose EconoTeque's IT Training Service?
                             </Typography>
                             <br />
                             <br />
+                           
                             <Typography variant="body1" className="body1">
 
                                 Our belief is anchored in the value of genuine expertise combined with a talent for
