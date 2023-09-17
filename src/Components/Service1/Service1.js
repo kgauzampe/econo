@@ -29,8 +29,9 @@ const Service1 = () => {
                             Designed to equip businesses with top-tier QA skills, our training options cater to diverse needs, including both onsite
                             and online formats.
                             <br />
-                            By investing in Software QA training, you empower your technical workforce to ensure impeccable software quality
-                            , setting the stage for enhanced operational excellence, innovative product development, heightened competitiveness,
+                            <br />
+                            By investing in Software QA training, you empower your technical workforce to ensure impeccable software quality, 
+                            setting the stage for enhanced operational excellence, innovative product development, heightened competitiveness,
                             and a robust foundation for sustained growth.
                         </Typography>
 
@@ -68,6 +69,7 @@ const Service1 = () => {
                                 <span style={{ fontWeight: 'bold' }}>Adoption of New Testing Techniques:</span>  Hesitant to embrace new testing
                                 methodologies or tools? Software QA training can alleviate those concerns. This training introduces innovative
                                 testing approaches, making the adoption of advanced testing techniques an exciting avenue for growth and improvement.
+                                <br />
                                 <br />
                                 Beyond teaching, we empower your teams to elevate their problem-solving abilities and cultivate a comprehensive
                                 understanding of the software they test from its foundational core.
