@@ -67,6 +67,7 @@ const Service2 = () => {
                                 approaches, IT training can alleviate those worries. The training introduces them to innovative tools and methods,
                                 making adopting new tech an exciting opportunity for growth and advancement.
                                 <br />
+                                <br/>
                                 By recognizing these signs and investing in IT training, you empower your team to navigate the digital landscape easily,
                                 turning potential challenges into opportunities for skill enhancement and success.
                             </Typography>
