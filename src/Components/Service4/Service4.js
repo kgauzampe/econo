@@ -28,11 +28,11 @@ const Service4 = () => {
                     <div className="serv4-article">
                         <Typography>
                             In the realm of software quality assurance (QA), consultancy services act as a guiding
-                            beacon. At Econoteque, our team of experts assists decision-makers in navigating the
+                            beacon. At EconoTeque, our team of experts assists decision-makers in navigating the
                             intricacies of software quality, from refining testing processes and ensuring robust
                             security to orchestrating seamless integration of QA practices.
                             <br />
-                            Benefit from Econoteque's wealth of experience to guide your business through the
+                            Benefit from EconoTeque's wealth of experience to guide your business through the
                             ever-evolving landscape of software quality assurance
                         </Typography>
 
@@ -44,7 +44,7 @@ const Service4 = () => {
                                 If your business relies on software to drive operations, then the answer is a resounding
                                 yes. In the modern digital landscape, having a dedicated partner to navigate QA intricacies
                                 or, better yet, preempt quality-related issues from affecting your software's performance
-                                and your bottom line is paramount. Engaging with a consultancy like Econoteque can
+                                and your bottom line is paramount. Engaging with a consultancy like EconoTeque can
                                 provide the support and expertise needed to elevate your software quality endeavours.
                                 <br />
                                 Not fully convinced? Read on to discover the benefits of Software QA Consultancy and

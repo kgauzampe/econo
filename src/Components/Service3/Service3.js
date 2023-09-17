@@ -28,12 +28,12 @@ const Service3 = () => {
                     <div className="serv3-article">
                         <Typography>
                             In the business world, IT consultancy serves as a valuable guide. The experts
-                            at Econoteque assist decision-makers in navigating technology choices, from
+                            at EconoTeque assist decision-makers in navigating technology choices, from
                             enhancing operations and ensuring online security to guiding the implementation
                             of significant digital transformations.
                             <br />
                             <br />
-                            With Econoteque's expertise, your business is provided with sound guidance that
+                            With EconoTeque's expertise, your business is provided with sound guidance that
                             will help it navigate in today's world.
                         </Typography>
 
@@ -59,10 +59,12 @@ const Service3 = () => {
                                 prevent digital issues from affecting your operations and costing you money, than
                                 partnering up with a consultancy such as Econoteque can help you and your business.
                                 <br />
+                                <br />
                                 Not convinced? Then read the benefits of IT Consultancy below and give call our
                                 team to find out how we can help your business.
                                 <br />
-                                <span style={{ fontWeight: 'bold' }}>1. Strategic Technological Guidance:</span>Elevate
+                                <br />
+                                <span style={{ fontWeight: 'bold' }}>1. Strategic Technological Guidance: </span>Elevate
                                 your business with expert guidance tailored to your unique goals. Our IT Consultancy services
                                 offer a strategic approach that aligns technology with your business objectives. Navigate the
                                 intricate digital landscape confidently, making informed decisions that drive growth, efficiency,
@@ -85,12 +87,13 @@ const Service3 = () => {
                                 to navigate these transitions confidently.
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>4. Empowered Workforce and Training:</span>
+                                <span style={{ fontWeight: 'bold' }}>4. Empowered Workforce and Training: </span>
                                 Empower your team with the skills and knowledge they need to thrive in a
                                 technology-driven world. Our IT Consultancy services encompass comprehensive
                                 training and ongoing support, ensuring your workforce can leverage advanced tools
                                 and systems proficiently. Increase productivity, boost employee morale, and foster
                                 a tech-savvy culture within your organisation.
+                                <br />
                                 <br />
                                 In summary, our IT Consultancy services empower businesses with tailored solutions,
                                 enabling them to harness technology strategically, protect their assets, and drive
