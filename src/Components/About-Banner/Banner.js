@@ -14,7 +14,7 @@ const Banner = () => {
         <Grid container spacing={20}>
           <Grid item xs={12} sm={12} md={6}>
             <Typography>
-              EconoTeque specialises in delivering rare Information Technology expertise and training
+              EconoTeque specialises in delivering exceptional Information Technology expertise and training
               to businesses and individuals across Africa and beyond. Founded and spearheaded by Dr.
               James Overton, a distinguished IT visionary with extensive hands-on experience in major
               organisations like IBM and the US Air Force.
@@ -55,7 +55,7 @@ const Banner = () => {
 
             <img src={AboutImg} alt="Card" className="aboutimg" />
             <Typography className='image-text'>
-              EconoTeque President and Head Advisor
+              EconoTeque President and Lead Advisor
             </Typography>
           </Grid>
         </Grid>

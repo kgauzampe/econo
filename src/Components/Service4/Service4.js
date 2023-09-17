@@ -32,8 +32,9 @@ const Service4 = () => {
                             intricacies of software quality, from refining testing processes and ensuring robust
                             security to orchestrating seamless integration of QA practices.
                             <br />
+                            <br />
                             Benefit from EconoTeque's wealth of experience to guide your business through the
-                            ever-evolving landscape of software quality assurance
+                            ever-evolving landscape of software quality assurance.
                         </Typography>
 
                         <div className="Serv1-text">
